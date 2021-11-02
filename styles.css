@@ -140,13 +140,13 @@ main{
 .main-tables-container::-webkit-scrollbar{ /*Oculta la barra de desplazamiento*/
 	display: none;
 }
-.main-commission-table, .table-container{
+.table-container{
 	position: relative;
 	scroll-snap-align: center; /*Mantienes a lo elementos (las tablas) en el centro*/
 	width: 80%;
 	min-width: 230px;
 	max-width: 500px;
-	height: 360px;
+	height: 260px;
 	margin: 0 50px;
 	font-family: "Inter", sans-serif ;
 }
@@ -227,15 +227,15 @@ main{
 }
 .table__arrow--right{
 	position: absolute;
-	top: calc(50%);
+	top: calc(70%);
 	left: calc(100%);
 	width: 12px;
 	height: 8px;
 }
 .table__arrow--left{
 	position: absolute;
-	top: calc(50%);
-	right: calc(100%);
+	top: calc(70%);
+	right: calc(105%);
 	width: 12px;
 	height: 8px;
 }
