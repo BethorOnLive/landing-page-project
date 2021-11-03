@@ -150,7 +150,6 @@ main{
 	margin: 0 50px;
 	font-family: "Inter", sans-serif ;
 }
-
 .table-container__content{
 	position: relative;
 	width: 90%;
@@ -238,4 +237,194 @@ main{
 	right: calc(105%);
 	width: 12px;
 	height: 8px;
+}
+.main-product-detail{
+	position: relative; /*Esta va a ser la referencia del elemento al que le asigne absolute*/
+	min-width: 320px;
+	width: 100%;
+	height: auto;
+	padding: 20px 10px;
+	background-color: var(--warm-black);
+}
+.product-detail__batata-logo{
+	position: absolute; /*Usa como referencia el position relative de algun padre para poder posicionarse*/
+	width: 38px;
+	height: 25px;
+	background: url(/assets/icons/batata.svg) no-repeat center;
+	background-size: cover;
+	top: -10px;
+	left: calc(50% - 19px);
+}
+.product-detail__title{
+	width: 90%;
+	min-width: 288px;
+	height: 94px;
+	margin: 30px auto;
+	text-align: center;
+}
+.product-detail__title h2{
+	font-family: 'DM Sans',sans-serif;
+	font-size: 2.4rem;
+	font-weight: 700;
+	color: white;
+}
+.product-detail__title p{
+	margin: 0 auto;
+	margin-top: 20px;
+	font-family: 'DM Sans',sans-serif;
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: #808080;
+}
+.product-cards__container{
+	margin: 15px auto;
+	padding: 10px;
+	width: 90%;
+	min-width: 288px;
+	max-width: 400px;
+	height: 152px;
+	border-radius: 8px;
+	box-shadow: rgba(0, 0, 0, 0.16);
+	text-align: left;
+	background-color:var(--black) ;
+}
+.product__card-icon{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-bottom: 5px;
+	background-size: cover;
+	color: var(--bitcoin-orange);
+}
+.clock{
+	background:url(/assets/icons/clock.svg) no-repeat center;
+}
+.eye{
+	background: url(/assets/icons/eye.svg);
+	width: 25px;
+}
+.dollar{
+	background: url(/assets/icons/dollar-sign.svg);
+}
+.check{
+	background: url(/assets/icons/check-circle.svg);
+	width: 25px;
+	height: 25px;
+}
+.product__card-title{
+	margin-bottom: 5px;
+	font-family: 'DM Sans',sans-serif;
+	font-weight: Bold;
+	font-size: 1.8rem;
+	color: white;
+}
+.product__card-body{
+	font-family: 'DM Sans',sans-serif;
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 1.8rem;
+	color: #808080;
+}
+.bitcoin-img-conatiner{
+	width: 100%;
+	min-width: 288px;
+	min-height: 387px;
+	height: 50vh;
+	background: url(/assets/img/bitcoinbaby2x.jpg) no-repeat center;
+	background-size: cover ;
+}
+.bitcoin-img-conatiner h2{
+	margin: 0 auto;
+	padding-top: 60px;
+	min-width: 288px;
+	min-height: 26px;
+	font-weight: 700;
+	font-size: 2.4rem;
+	text-align: center;
+	color: white;
+}
+.main-plans-container{
+	min-width: 320px;
+	width: 100%;
+	height: auto;
+	padding-bottom: 70px;
+	text-align: center;
+	background-color: white;
+}
+.plans-container__title{
+	width: 90%;
+	min-width: 288px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.plans-container__title h2{
+	margin-top: 50px;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 2.4rem;
+	font-weight: 700;
+	text-align: center;
+	color: var(--warm-black);
+}
+.plans-container__title p{
+	margin-top: 20px;
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: #757575;
+}
+.plans-container__card{
+	position: relative;
+	width: 60%;
+	min-width: 190px;
+	max-width: 300px;
+	height: 250px;
+	margin: 50px auto 0;
+	padding: 0px 15px;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(20, 17, 7, 0.3);
+}
+.plans-container__recomended{
+	position: absolute;
+	top: -5px;
+	left: calc(50% - 50px);
+	width: 101px;
+	height: 31px;
+	padding: 8px 8px;
+	font-family: 'Inter',sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-align: center;
+	background-color: var(--bitcoin-orange);
+	color: white;
+	border-radius: 8px;
+}
+.plan-card-body{
+	padding-top: 50px;	
+}
+.plan-card__title{
+	font-family: 'DM Sans',sans-serif;
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: black;
+}
+.plan-card__price{
+	font-family: 'Inter',sans-serif;
+	font-size: 5.2rem;
+	font-weight: 700;
+	color: black;
+}
+.plan-card__price span{
+	font-size: 1.2rem;
+    font-weight: 500;
+    vertical-align: 25px;
+	color: #363636;
+}
+.plan-card__saving{
+	
+	margin-top: 15px;
+	font-family: 'Inter',sans-serif;
+	font-size: 1.2rem;
+	font-weight: 500;
+	line-height: 1.5rem;
+	color: #757575;
 }
