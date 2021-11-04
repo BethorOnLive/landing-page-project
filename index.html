@@ -123,13 +123,37 @@
                 <p>Cualquier plan te da acceso completo a nuestra plataforma</p>
             </div>
             <section class="plans-container__slider">
-                <article class="plans-container__card">
-                    <p class="plans-container__recomended">Recomendado</p>
+                <article class="plans-container__card" id="plan-basic">
+                    <p class="plans-container__tag tag--basic">Básico</p>
+                    <div class="plan-card-body">
+                        <h3 class="plan-card__title">Pago Mensual</h3>
+                        <p class="plan-card__price"><span>$</span> 19</p>
+                        <p class="plan-card__saving">Paga una vez al mes desde el día de tu compra.</p>
+                        <button class="plan-card__ca"type="button">Escoger este<span></span></button>
+                    </div>
+                </article>
+                <article class="plans-container__card" id="plan-recommended">
+                    <p class="plans-container__tag">Recomendado</p>
                     <div class="plan-card-body">
                         <h3 class="plan-card__title">Pago Anual</h3>
                         <p class="plan-card__price"><span>$</span> 99</p>
                         <p class="plan-card__saving">*Ahorras $129 comparado al plan mensual.</p>
-                        <button class="plan-card__ca"type="button">Escoger este<span>i</span></button>
+                        <button class="plan-card__ca"type="button">Escoger este<span></span></button>
+                    </div>
+                    <a href="#plan-basic" class="plan__arrow--left">
+                        <img src="/assets/icons/left-arrow.svg" alt="Flecha hacia a la izquierda">
+                    </a>
+                    <a href="#plan-ultimate" class="plan__arrow--right">
+                        <img src="/assets/icons/right-arrow.svg" alt="Flecha hacia a la derecha">
+                    </a>
+                </article>
+                <article class="plans-container__card" id="plan-ultimate">
+                    <p class="plans-container__tag tag--ultimate">Ultimate</p>
+                    <div class="plan-card-body">
+                        <h3 class="plan-card__title">Único Pago</h3>
+                        <p class="plan-card__price"><span>$</span> 129</p>
+                        <p class="plan-card__saving">Ahorro infinito (50 cupos)</p>
+                        <button class="plan-card__ca ca--ultimate"type="button">Escoger este<span></span></button>
                     </div>
                 </article>
             </section>
