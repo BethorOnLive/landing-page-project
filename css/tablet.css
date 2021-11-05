@@ -1,0 +1,13 @@
+.table__arrow--left, .table__arrow--right{
+    display: none;
+}
+.product-cards__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.plans-container__slider{
+    justify-content: center;
+}
+.plan__arrow--right, .plan__arrow--left{
+    display: none;
+}

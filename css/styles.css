@@ -286,6 +286,13 @@ main{
 	color: #808080;
 }
 .product-cards__container{
+	width: 100%;
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.product-detail__card{
 	margin: 15px auto;
 	padding: 10px;
 	width: 90%;
@@ -386,12 +393,13 @@ main{
 	overflow-x: scroll; /*Se recorta el contenido en hotizontal y se agrega una barra de desplazamiento*/
 	overscroll-behavior-x: contain; /*Hace que el scroll solo afecte al contenedor de las tablas y no a la pagina en general*/
 	scroll-snap-type: x mandatory; /* x= los puntos de ajuste son horizontales, mandatory: evita que el scroll quede a la mitad de los 2 contenedores*/
-	scroll-padding: 50%;
+	scroll-behavior: smooth;
 	height: 320px;
 }
 .plans-container__card{
 	position: relative;
 	scroll-snap-align: center; /*Mantienes a lo elementos (las tablas) en el centro*/
+
 	width: 60%;
 	min-width: 190px;
 	max-width: 300px;
