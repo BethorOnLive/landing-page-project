@@ -144,7 +144,7 @@ main{
 	overflow-x: scroll; /*Se recorta el contenido en hotizontal y se agrega una barra de desplazamiento*/
 	overscroll-behavior-x: contain; /*Hace que el scroll solo afecte al contenedor de las tablas y no a la pagina en general*/
 	scroll-snap-type: x mandatory; /* x= los puntos de ajuste son horizontales, mandatory: evita que el scroll quede a la mitad de los 2 contenedores*/
-	
+	height: 350px;
 }
 .main-tables-container::-webkit-scrollbar{ /*Oculta la barra de desplazamiento*/
 	display: none;
